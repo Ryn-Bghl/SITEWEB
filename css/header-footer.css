@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* it make it so you have to scroll to see the footer */
+main {
+    flex: 1;
+}
+
+header {
+    background-color: #bca6ea;
+    color: #1e1a23;
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    color: #1e1a23;
+    text-decoration: none;
+}
+
+.assos:hover {
+    color: #F17184;
+}
+
+.actus:hover {
+    color: #E28938;
+}
+
+.actions:hover {
+    color: #ffe53d;
+}
+
+.equipe:hover {
+    color: #2AFF75;
+}
+
+.contact:hover {
+    color: #4934f6;
+}
+
+.indentite:hover {
+    color: #BA97FF;
+}
+
+header h1 {
+    font-family: "Carter One", sans-serif;
+    font-size: 2.5rem;
+}
+
+header ul {
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    gap: 2rem;
+}
+
+.identite a {
+    gap: 1rem;
+}
+
+header .logo_assos {
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+.drapeau_lgbt {
+    width: 50px;
+    height: 25px;
+}
+
+/* FIXME: you have to scroll to much to see the footer  */
+
+footer {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bca6ea;
+    color: #1e1a23;
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    width: 100%;
+    height: 142px;
+    /* height: 13rem; */
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 142px;
+    /* height: 13rem; */
+}
+
+.contact ul,
+.mentions_legal ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo_assos {
+    width: 100px;
+}

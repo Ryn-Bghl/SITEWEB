@@ -1,0 +1,51 @@
+.trombinoscope {
+    margin-top: 12vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.carte {
+    margin: auto;
+    width: min-content;
+    text-align: center;
+}
+
+.carte img {
+    width: 300px;
+}
+
+.carte a {
+    text-decoration: none;
+    color: #1e1a23;
+}
+
+.rayan {
+    /* background-color: #f7efe8; */
+    background-color: #f995a9;
+}
+
+.maissa {
+    /* background-color: #6e8db2; */
+    background-color: #f9b395;
+}
+
+.lauryn {
+    /* background-color: #40515d; */
+    background-color: #f9e295;
+}
+
+.amory {
+    /* background-color: #fbf9f3; */
+    background-color: #95f9a2;
+}
+
+.ilyes {
+    /* background-color: #ccc4ca; */
+    background-color: #95cff9;
+}
+
+.adamou {
+    /* background-color: #faf9f4; */
+    background-color: #9595f9;
+}
