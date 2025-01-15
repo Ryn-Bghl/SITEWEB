@@ -1,54 +1,14 @@
-/* 1. Use a more-intuitive box-sizing model */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-/* 2. Remove default margin */
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--cls-very-dark-green) !important;
+    font-family: "Dosis", sans-serif;
 }
 
-body {
-    /* 3. Add accessible line-height */
-    line-height: 1.5;
-    /* 4. Improve text rendering */
-    -webkit-font-smoothing: antialiased;
-}
-
-/* 5. Improve media defaults */
-img,
-picture,
-video,
-canvas,
-svg {
-    display: block;
-    max-width: 100%;
-}
-
-/* 6. Inherit fonts for form controls */
-input,
-button,
-textarea,
-select {
-    font: inherit;
-}
-
-/* 7. Avoid text overflows */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    overflow-wrap: break-word;
-}
-
-/* 8. Improve line wrapping */
-p {
-    text-wrap: pretty;
+img {
+    width: 100%;
+    height: auto;
 }
 
 h1,
@@ -58,76 +18,26 @@ h4,
 h5,
 h6 {
     font-size: 1rem;
-    text-wrap: balance;
-}
-
-/*
-    9. Create a root stacking context
-  */
-#root,
-#__next {
-    isolation: isolate;
 }
 
 :root {
-    --purple: #bca6ea;
-
-    /* primary */
-    --primary-red: #f995a9;
-    --primary-orange: #f9b395;
-    --primary-yellow: #f9e295;
-    --primary-green: #95f9a2;
-    --primary-blue: #95cff9;
-    --primary-purple: #9595f9;
-
-    /* secondary */
-    --secondary-red: #e3abb6;
-    --secondary-orange: #e3bcab;
-    --secondary-yellow: #e3d6ab;
-    --secondary-green: #abe3b2;
-    --secondary-blue: #abcce3;
-    --secondary-purple: #ababe3;
-
-    /* accent */
-    --accent-red: #d5b9be;
-    --accent-orange: #d5c1b9;
-    --accent-yellow: #d5ceb9;
-    --accent-green: #b9d5bd;
-    --accent-blue: #b9c9d5;
-    --accent-purple: #b9b9d5;
-
-    /* Background */
-    --bg-red: #fde7ec;
-    --bg-orange: #fdeee7;
-    --bg-yellow: #fdf8e7;
-    --bg-green: #e7fdf6;
-    --bg-blue: #e7f4fd;
-    --bg-purple: #e7e7fd;
-
-    /* Font Color */
-    --fc-red: #231a1c;
-    --fc-orange: #231d1a;
-    --fc-yellow: #23211a;
-    --fc-green: #07120e;
-    --fc-blue: #1a1f23;
-    --fc-purple: #1e1a23;
-
-    /* Typography */
-    --fz-body: 1rem;
-    --fz-title: 2.5rem;
-    --lh-header: 1.2rem;
-    --lh-body: 1.4rem;
-    --ls-header: -2%;
-    --ff-header: "Carter One", sans-serif;
-    --ff-primary: "Dosis", sans-serif;
+    /* COLORS */
+    --cls-green: #8ba7a0;
+    --cls-dark-green: #58736c;
+    --cls-very-dark-green: #2c3a36;
+    --cls-light-green: #e2e9e7;
+    --cls-brown: #736c58;
+    --cls-sand: #c8b98b;
+    --cls-blue: #585d73;
 }
 
-main h1 {
-    font-size: var(--fz-title);
-    font-family: var(--ff-header);
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--fc-purple);
+body {
+    background-color: var(--cls-light-green);
 }
+
+header,
+footer {
+    background-color: var(--cls-green);
+}
+
+main h1 {}
