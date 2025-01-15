@@ -39,3 +39,8 @@ header,
 footer {
     background-color: var(--cls-green);
 }
+
+.hero img {
+    width: 300px;
+    border-radius: 50%;
+}
