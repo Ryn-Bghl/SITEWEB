@@ -1,8 +1,17 @@
 * {
+    cursor: url("../chat-cursor-v3.png"), auto;
+    /* cursor: url("../chat-cursor-v2.png"), auto; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Dosis", sans-serif;
+}
+
+a,
+header h1,
+header img,
+footer img {
+    cursor: url("../actualy-cat.png"), auto;
 }
 
 ul {
