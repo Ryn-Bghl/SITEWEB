@@ -59,6 +59,14 @@ footer {
 
 .hero hr {
     width: 150px;
-    margin: 2rem auto;
-    border: 1px solid var(--cls-very-dark-green);
+    font-weight: bold;
+    margin: 1rem auto 2rem auto;
+    border: 2px solid var(--cls-dark-green);
+}
+
+.bio {
+    font-size: 1.125rem;
+    margin: 3rem auto auto auto;
+    text-align: center;
+    width: 50%;
 }
