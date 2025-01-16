@@ -49,7 +49,7 @@ footer {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background-color: hsla(165, 14%, 60%, 0.25);
+    background-color: #cdd9d5;
 }
 
 .hero h1 {
@@ -69,4 +69,8 @@ footer {
     margin: 3rem auto auto auto;
     text-align: center;
     width: 50%;
+}
+
+#reseaux img {
+    filter: invert(89%) sepia(6%) saturate(231%) hue-rotate(109deg) brightness(96%) contrast(94%);
 }
