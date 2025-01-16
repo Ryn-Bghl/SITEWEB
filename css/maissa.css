@@ -120,7 +120,6 @@ main h1 {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 30px;
-    ;
     border-radius: 1rem;
     padding-top: 10px;
     padding-bottom: 28px;
@@ -139,9 +138,6 @@ main h1 {
     padding: 4px;
     border: 10px solid #767bab;
     border-style: ridge;
-
-
-
 }
 
 .parcours {

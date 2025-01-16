@@ -6,7 +6,7 @@ main {
 }
 
 .trombinoscope {
-    max-width: 90%;
+    width: 80vw;
     display: grid;
     grid-template-columns: repeat(6, 16%);
 }
