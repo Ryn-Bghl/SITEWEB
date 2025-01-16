@@ -6,7 +6,7 @@ main {
 }
 
 .trombinoscope {
-    width: 80vw;
+    width: 90vw;
     display: grid;
     grid-template-columns: repeat(6, 16%);
 }
@@ -26,6 +26,7 @@ main {
 
 .carte img {
     width: 300px;
+    /* max-width: 100%; */
     border-radius: 2.5rem;
 }
 
