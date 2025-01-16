@@ -70,7 +70,3 @@ footer {
     text-align: center;
     width: 50%;
 }
-
-#reseaux img {
-    filter: invert(89%) sepia(6%) saturate(231%) hue-rotate(109deg) brightness(96%) contrast(94%);
-}
