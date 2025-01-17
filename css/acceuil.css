@@ -1,0 +1,47 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.assos,
+.actions,
+.soutenir,
+.ligne-ecoute {
+    background-color: hsl(259, 33%, 90%);
+    border: 3px solid hsl(259, 33%, 75%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem 10rem 1rem 2rem;
+    width: 25%;
+}
+
+/* .assos {
+    margin-left: 12.5%;
+}
+
+.actions {
+    margin-left: 50%;
+} */
+
+.assos,
+.actions {
+    margin: auto;
+    width: 50%;
+}
+
+.annexe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    grid-column: span 2;
+}
+
+.soutenir {
+    margin: 2rem;
+}
+
+.ligne-ecoute {
+    margin: 2rem;
+}
