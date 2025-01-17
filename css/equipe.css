@@ -6,10 +6,19 @@ main {
 }
 
 .trombinoscope {
-    font-size: 1vw;
     width: 90vw;
     display: grid;
     grid-template-columns: repeat(6, 16%);
+}
+
+.trombinoscope h1 {
+    font-size: 1.5vw;
+
+}
+
+.trombinoscope p {
+    font-size: 1vw;
+    font-weight: 600;
 }
 
 .carte {
