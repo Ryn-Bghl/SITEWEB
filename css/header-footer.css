@@ -6,12 +6,9 @@
     font-family: "Dosis", sans-serif;
 }
 
-/* a,
-header h1,
-header img,
-footer img {
-    cursor: url("../actualy-cat.png"), auto;
-} */
+.curstom_cursor * {
+    cursor: url("../assets/image/cursor/actualy-cat.png"), auto;
+}
 
 ul {
     display: flex;
@@ -19,7 +16,7 @@ ul {
 }
 
 body {
-    cursor: url("../chat-cursor-v3.png"), url("../actualy-cat.png"), url("../chat-cursor-v2.png"), auto;
+    cursor: url("../assets/image/cursor/actualy-cat.png"), url("../assets/image/cursor/chat-cursor-v2.png"), auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -75,19 +72,6 @@ header .logo_assos {
     width: 50px;
     height: 25px;
 }
-
-/* FIXME: you have to scroll to much to see the footer  */
-
-/* quand ça OVERFLOW
-
-position: relative;
-bottom: 0;
-
-SINON : 
-
-position: fixed;
-
-*/
 
 footer {
     position: relative;
