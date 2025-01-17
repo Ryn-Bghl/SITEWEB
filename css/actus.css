@@ -5,3 +5,32 @@ figure {
 img {
     width: 100%;
 }
+
+.actus {
+    /* display: inline-block; */
+    background-color: hsl(259, 33%, 90%);
+    border: 3px solid hsl(259, 33%, 75%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 10rem;
+    width: 50%;
+}
+
+.actus:nth-child(even) {
+    figure {
+        margin-left: auto;
+    }
+
+    text-align: right;
+    margin-left: auto;
+}
+
+.actus:nth-child(odd) {
+
+    figure {
+        margin-right: auto;
+    }
+
+    text-align: left;
+    margin-right: auto;
+}
