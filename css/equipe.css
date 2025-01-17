@@ -6,15 +6,17 @@ main {
 }
 
 .trombinoscope {
+    font-size: 1vw;
     width: 90vw;
     display: grid;
     grid-template-columns: repeat(6, 16%);
 }
 
 .carte {
+    height: max-content;
     border-radius: 2.5rem;
     margin: auto;
-    width: min-content;
+    width: 130%;
     text-align: center;
     padding: 1rem;
     transition: transform 0.4s ease;
@@ -25,7 +27,7 @@ main {
 }
 
 .carte img {
-    width: 300px;
+    width: 100%;
     /* max-width: 100%; */
     border-radius: 2.5rem;
 }
