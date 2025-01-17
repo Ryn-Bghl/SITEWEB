@@ -10,6 +10,10 @@
     cursor: url("../assets/image/cursor/actualy-cat.png"), auto;
 }
 
+body {
+    background-color: rgba(188, 166, 234, 0.5);
+}
+
 ul {
     display: flex;
     list-style-type: none;
