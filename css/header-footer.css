@@ -49,13 +49,13 @@ header a {
 
 header h1 {
     font-family: "Carter One", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2vw;
 }
 
 header ul {
     font-family: "Dosis", sans-serif;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     gap: 2rem;
 }
 
